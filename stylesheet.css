@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-image: url("thisone.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 60px;
+}
+.fa-spinner{
+  
+  width: 100%;
+  text-align: center;
+  
+  color:#F1C714;
+
+}
+.text-center {
+  color:#F1C714;
+}
+
+.fa-4x {
+  background-color: white;
+  border: 3px solid white;
+  border-radius:5px;
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.col-md-4 {
+  margin-bottom: 5px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#osobe, #planete, #brodovi {
+  color:#F1C714;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.about {
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.badge-warning {
+  background-color: #f89406;
+}
+
+.badge-warning:hover {
+  background-color: #c67605;
+}
+
+table {
+  width:100%;
+  border: 3px solid #F1C714;
+  font-size: 15px;
+  border-radius:5px;
+  display: none;
+  background-color: white;
+  color: black;
+  table-layout:fixed;
+}
+
+table td:first-child {
+  font-weight: bold;
+  padding-left:5px;
+}
+
+table td:first-child:first-letter {
+  text-transform: capitalize;
+}
+
+td {
+  padding:5px 5px;
+  text-align: left;
+  word-break: break-word;
+  max-width:100%;
+}
+
+.card:hover {
+  color: #F1C714;
+}
+
+.card:hover table {
+  display: table;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: black;
+}
+
+#modal {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 64px;
+    height: 64px;
+    padding:30px 15px 0px;
+    /*border: 3px solid #ababab;
+    box-shadow:1px 1px 10px #ababab;
+    border-radius:20px;
+    background-color: white;*/
+    z-index: 1002;
+    text-align:center;
+  /*  overflow: auto;*/
+}
+
